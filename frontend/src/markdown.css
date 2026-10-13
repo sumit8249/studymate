@@ -1,0 +1,27 @@
+.message-bubble .markdown-table-wrap {
+  max-width: 100%;
+  overflow-x: auto;
+}
+
+.message-bubble table {
+  border-collapse: collapse;
+  margin: 8px 0;
+  min-width: 100%;
+  text-align: left;
+}
+
+.message-bubble th,
+.message-bubble td {
+  border: 1px solid #e1e3ed;
+  padding: 6px 9px;
+}
+
+.message-bubble th {
+  background: #f0efff;
+  color: #34374f;
+}
+
+.message-bubble pre code {
+  background: transparent;
+  padding: 0;
+}
